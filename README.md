@@ -206,7 +206,7 @@ bt.match('button', function (ctx) {
 
 ```html
 <!-- {block: 'button', disabled: true} -->
-<button class="button _disabled" data-block="button" disabled></button>
+<button class="button_disabled" data-block="button" disabled></button>
 ```
 
 Состояния могут принимать значения:
@@ -221,7 +221,7 @@ bt.match('popup', function (ctx) {
 
 ```html
 <!-- {block: 'popup'} -->
-<div class="popup _orientation_top" data-block="popup"></div>
+<div class="popup_orientation_top" data-block="popup"></div>
 ```
 
 Миксины
@@ -247,7 +247,7 @@ bt.match('input', function (ctx) {
 Превращается в HTML:
 
 ```html
-<input class="input _init" data-block="input" data-options="{mixins:[{name: 'auto-focus'}]}"/>
+<input class="input_init" data-block="input" data-options="{mixins:[{name: 'auto-focus'}]}"/>
 ```
 
 В дальшнейшем, при инициализации страницы, миксин будет инстанцирован для данного блока.
